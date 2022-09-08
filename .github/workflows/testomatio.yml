@@ -1,0 +1,14 @@
+name: Testomatio Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      grep:
+        description: 'tests to grep '
+        required: false
+        default: ''
+      run:
+        required: false
+      testomatio:
+        required: false
+        
